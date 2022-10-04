@@ -3,23 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Open Graph 연습</title>
-    <meta name="title" content="Open Graph 연습">
-    <meta name="description" content="실제 업로드를 통해 og 확인할 문서입니다">
+    <title>네이버 회원가입 test</title>
+    <meta name="title" content="test">
+    <meta name="description" content="네이버 회원가입 만들기 테스트">
 
-    <!--og-->
-    <meta property="og:title" content="오픈그래피 연습">
-    <meta property="og:description" content="지선 오픈그래피 연습">
+    <meta property="og:title" content="test">
+    <meta property="og:description" content="이지선 테스트">
     <meta property="og:image" content="https://sunsun916.github.io/repo-ex/images/ogImg.png">
     <meta property="og::url" content="https://sunsun916.github.io/repo-ex/">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 <body>
-    <h1>Open Graph 연습</h1>
+    <a href="#">본문으로 바로가기</a>
+    <h1><a href="https://naver.com" target="_blank">naver</a></h1>
+    
+    <h2>네이버 회원가입</h2>
+    <form>
+        <h3><label for="user_name">아이디</label></h3>
+        <input type="text" name="user_name" id="user_name">@naver.com
+
+        <h3> <label for="userPw">비밀번호</label></h3>
+        <input type="password" name="user_pw" id="userPw" minlength="5">
+        <h3><label for="userPw_re">비밀번호 재확인</label></h3>
+        <input type="password" name="user_pw" id="userPw_re" minlength="5" placeholder="설정하려는 비밀번호가 맞는지 확인하기 위해 다시 입력 해주세요." required>
+         <h3><label for="name">이름</label></h3>
+         <input type="text" name="name" id="name">
+         <h3><label for="year">생년월일</label></h3>
+         <input type="text" name="user_name" id="year" placeholder="년(4자)"><br>
+            <select name="month">
+                <option value="선택1">월</option>
+                <option value="선택2">1</option>
+                <option value="선택3">2</option>
+                <option value="선택4">3</option>
+                <option value="선택5">4</option>
+                <option value="선택5">5</option>
+                <option value="선택5">6</option>
+                <option value="선택5">7</option>
+                <option value="선택5">8</option>
+                <option value="선택5">9</option>
+                <option value="선택5">10</option>
+                <option value="선택5">11</option>
+                <option value="선택5">12</option>
+            </select><br>
+            <input type="text" name="day" placeholder="일"><br>
+    <h3>성별</h3>
+
+    <select name="sex">
+        <option value="성별" selected>성별</option>
+        <option value="남">남</option>
+        <option value="여">여</option>       
+    </select>
+
+    <h3><label for="us_email">본인 확인 이메일(선택)</label></h3>
+        <input type="text" name="select_email" id="us_email" placeholder="선택입력">
+
+    <h3><label for="user_tal">휴대전화</label></h3>
+    <select name="user_tal" id="user_tal">
+        <option value="국가번호선택">대한민국+82</option>
+        <option value="81">81</option>
+        <option value="82">82</option>
+        <option value="83">83</option>
+    </select><br>
+    <input type="text" name="tal" placeholder="전화번호를 입력"><a href="#">인증번호받기</a><br>
+    <input type="text" name="number" placeholder="인증번호를 입력하세요">인증받은 후 인증번호를 입력해야 합니다<br>
+    <button type="submit">가입하기</button>
+
     <ul>
-        <li>og:title 제목</li>
-        <li>og:description 설명</li>
-        <li>og:image 이미지</li>
-        <li>og:url 웹사이트 주소</li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#"><strong>개인정보처리방법</strong></a></li>
+        <li><a href="#">책임의 한계와 법적고지</a></li>
+        <li><a href="#">회원정보 고객센터</a></li>
     </ul>
-</body>
+    <a href="#">naver</a><em>Copyrightⓒ<a href="#">naver.corp</a>All Rights Reserved </em>
+    
+</form>
+    </body>
 </html>
+
