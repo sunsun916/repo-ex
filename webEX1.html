@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>webex1</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+        <style>
+            .clearFix::after {
+                content: "";
+                display: block;
+                clear: both;
+                height: 0;
+            }
+            body {
+                background: url(./images/texture.jpg) no-repeat fixed 50% / cover;
+            }
+            h1, h2, h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+         
+            .box1 h1 {
+                font-family: 'Pacifico', cursive, serif;
+                line-height : 50px;
+                font-size: 40px;
+                font-weight: normal;
+                
+            }
+            .box1 h2 {
+                font-family:'Abril Fatface', cursive, serif;
+                font-weight: normal;
+                font-size: 32px;
+                letter-spacing:2px;
+                
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            .container {
+                border: 5px solid #eeb0b0;
+                margin: 20px auto;
+                width: 958px;
+                min-width: 500px;
+            }
+            .container header .box1 {
+                background: url(./images/logo.png);
+                background-color: #7d1e6a;
+                background-repeat: no-repeat;
+                background-size: 93px;
+                background-position: 30px;
+                padding: 33px 0; 
+                text-indent: 130px;
+                text-transform: capitalize;
+                line-height: 0.9;
+                color: #fff;
+            }
+
+            .container header .box2 {
+                background-color: #ffcd38;
+                box-sizing: border-box;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;  
+                font-weight: bold;
+            }
+            .container header .box2 li {
+                float: left;
+            }
+            .container header .box2 li a {
+                display: block;
+                font-size: 17px;
+                text-decoration: none;
+                color: #7d1e63;
+                padding-right: 20px;
+                padding-left: 20px;
+
+
+            }
+            .container header .box2 li a:hover {
+                color: red;
+                background-color: #eeb0b0;
+                text-align: center;
+            }
+            main article {
+                float: left;
+                width: 70%;
+                height: 300px;
+                position: relative;
+                background-color: #f1eee9;
+                border-right: red solid 1px;
+                box-sizing: border-box;
+            }
+            main .con .img1 {
+                border: 1px solid red;
+                width: 305px;
+                height: 230px;
+                background: #fff url(./images/img1_1_1.jpg) no-repeat 50% 10px;
+                font-style: italic;
+                margin: 30px 0 40px 20px;
+                
+                
+            }
+            main .con .img2 {
+                border: 1px solid red;
+                width: 305px;
+                height: 230px;
+                background: #fff url(./images/img1_2_2.jpg) no-repeat 50% 10px;
+                margin: 30px 0 40px 20px;
+                
+            }
+            main .con .img1 em {
+                padding: 203px 0 0 218px;
+                font-size: 13px;
+                display: block;
+                text-transform: capitalize;
+                color:#585858;
+            }
+            main .con .img2 em {
+                padding: 203px 0 0 240px;
+                font-size: 13px;
+                display: block;
+                text-transform: capitalize;
+                color:#585858;
+            }
+            main .con .box {
+                width: 278px;
+                float: right;
+                height: 145px;
+                position: absolute;
+                top: 35px; left: 349px;
+            }
+            main .con .box h2 {
+                font-size: 27px;
+                padding-bottom: 23px;
+            }
+            main .con .box h3 {
+                color: red;
+                font-size: 18px;
+                padding-bottom: 25px;
+            }
+            main .con .box p {
+                font-size: 16px;
+                margin: 0;
+            }
+            main aside {
+                position: relative;
+            }
+            main aside .sidemenu {
+                float: right;
+                width: 30%;
+                height: 565px;
+                background-color: #fff;
+                position: absolute;
+                top: 0; left: 70%;
+                text-indent: 22px;
+                line-height: 2.5;
+                padding-top: 35px;
+
+            }
+            main aside ul li {
+                border-bottom: 1px solid red;
+                line-height: 3.0;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            main aside h2 {
+                font-size: 25px;
+                color: red;
+            }
+            main aside .mag {
+                padding-top: 10px;
+            }
+            main aside .pad {
+                line-height: 0.2;
+                font-size: 20px;
+            }
+            main aside li {
+                display: block;
+            }
+            main aside li:hover {
+                color: red;
+            }
+            footer {
+                background-color: #7d1e6a;
+                color: #fff;
+                font-size: 15px;
+                padding: 10px 0;
+                text-indent: 21px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container clearFix">
+            <header>
+                <div class="box1">
+                    <h1>kim's kitchen</h1>
+                    <h2>cooking class</h2>
+                </div>
+                <nav class="box2">
+                    <ul class="gnb">
+                        <li><a href="#">홈</a></li>
+                        <li><a href="#">소개</a></li>
+                        <li><a href="#">교실</a></li>
+                        <li><a href="#">케이터링</a></li>
+                        <li><a href="#">연락처</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="clearFix">
+                <article class="con clearFix">
+                    <div class="img1"><em>oriental salad</em></div>
+                    <div class="box">
+                        <h2>채식주의자</h2>
+                        <h3>런던에서의 5주 코스</h3>
+                        <p>5주간 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다.</p>  
+                    </div> 
+                </article>
+                <article class="con clearFix">
+                    <div class="img2"><em>soy sauce</em></div>
+                    <div class="box">
+                        <h2>소스 마스터클래스</h2>
+                        <h3>1일 워크샵</h3>
+                        <p>1일 집중코스에서는 다양한 요리에서 사용할 수 있는 가장 맛있는 소스를 만드는 방법을 살펴본다</p>     
+                    </div>
+                </article>
+                <aside class="clearFix">
+                    <div class="sidemenu">
+                        <h2>인기요리법</h2>
+                        <ul>
+                            <li>후라이드</li>
+                            <li>고추바사삭</li>
+                            <li>양념치킨</li>
+                            <li>강정</li>
+                        </ul>
+                        <h2 class="mag">연락처</h2>
+                        <p class="pad">경기 수원시 팔달구 매산동</p>
+                    </div>
+                </aside>
+            </main>
+            <footer>
+                ⓒkim's kitchen 김씨네 키친
+            </footer>
+        </div>
+    </body>
+</html>
