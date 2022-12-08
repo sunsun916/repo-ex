@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹사이트 만들기</title>
+
+    <!-- og -->
+    <meta property="og:title" content="221205_web_이지선">
+    <meta property="og:description" content="FIVESTONE WEB">
+    <meta property="og:image" content="./images/og.png">
+    <meta property="og:image" content="https://sunsun916.github.io/repo-ex/images/ogImg.jpg">
+    <meta property="og::url" content="https://sunsun916.github.io/repo-ex/index_web.html">
+
+    <!-- 파비콘 -->
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./common/style/minireset.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <link href="./common/anumate.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- navigation 상단메뉴 시작-->
+    <nav>
+        <h1><a href="/"><img src="./images/logo.png" alt="파이브스톤 로고"></a></h1>
+        <div class="main_menu">hover</div>
+        <ul id="gnb">
+            <li>
+                <a href="#"><span>About US</span></a>
+                <ul class="sub_menu">
+                    <li><a href="#">회사개요</a></li>
+                    <li><a href="#">CEO 인사말</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><span>Business</span></a>
+                <ul class="sub_menu">
+                    <li><a href="#">사업분야01</a></li>
+                    <li><a href="#">사업분야02</a></li>
+                    <li><a href="#">사업분야03</a></li>
+                    <li><a href="#">사업분야04</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><span>Product</span></a>
+                <ul class="sub_menu">
+                    <li><a href="#">제품안내01</a></li>
+                    <li><a href="#">제품안내02</a></li>
+                    <li><a href="#">제품안내03</a></li>
+                    <li><a href="#">제품안내04</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><span>Community</span></a>
+                <ul class="sub_menu">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">홍보자료</a></li>
+                    <li><a href="#">채용안내</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><span>Customer</span></a>
+                <ul class="sub_menu">
+                    <li><a href="#">1:1문의</a></li>
+                    <li><a href="#">묻고답하기</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="#" class="menu_btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </a>
+    </nav>
+
+    <!-- header 움직이는 배너-->
+    <header>
+        <div class="slide_banner">
+        <h2><span>VERSATILE</span><span class="hide1">DESIGN</span></h2>
+        <p>정직과 신뢰, 디자인을 최우선으로 생각하며<br class="hide">고객과 함께 할 수 있는 든든한 파트너가 되겠습니다.</p>
+        <ul class="slide_ul">
+            <li><a href=#>1</a></li>
+            <li><a href=# class="active">2</a></li>
+            <li><a href=#>3</a></li>
+        </ul>
+    </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- main_service -->
+        <article id="main_service">
+            <h2 class="title">main service</h2>
+            <h3 class="sub_title">정직과 신뢰, 디자인으로 함께 하는 파이브스톤</h3>
+            <ul>
+                <li>
+                    <a href="#"><img src="./images/m-ms01.jpg" alt="img1"></a>
+                    <h3><a href="#">회사개요</a></h3>
+                    <p><a href="#">고객과 함께 꾸준히 성장한 당사의 개요, 비전 등의 내용을 소개합니다.</a></p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/m-ms02.jpg" alt="img2"></a>
+                    <h3><a href="#">사업분야</a></h3>
+                    <p><a href="#">당사의 사업내역 및 앞으로 계획하고 진행할 사업계획을 정리하였습니다.</a></p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/m-ms03.jpg" alt="img3"></a>
+                    <h3><a href="#">제품안내</a></h3>
+                    <p><a href="#">고객감동을 실현하는 당사의 추천상품을 자세히 보실 수 있는 공간입니다.</a></p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/m-ms04.jpg" alt="img4"></a>
+                    <h3><a href="#">홍보자료</a></h3>
+                    <p><a href="#">각종 미디어에 소개된 당사의 언론 및 영상 자료를 보실 수 있는 공간입니다.</a></p>
+                </li>
+            </ul>
+        </article>
+
+        <!-- The Special Design Group -->
+        <article id="design_group">
+            <h2>The Special Design Group</h2>
+            <p>파이브스톤은 오랫동안 쌓은 전문지식과 노하우를 바탕으로 고객과 함께하겠습니다.</p>
+            <a href="#" class="ghost_btn">view detail</a>
+        </article>
+
+        <!-- OUR PRODUCT grid -->
+
+    <!-- product -->
+
+    <article id="our_product">
+        <h2 class="title">OUR PRODUCT</h2>
+        <h3 class="sub_title">정직과 신뢰, 디자인으로 함께 하는 파이브스톤</h3>
+
+        <div class="gridWrap">
+            <a href="#" class="grid_img1 bg">
+                <h4>DFSA 101</h4>
+                <p class="view_btn">VIEW</p>
+            </a>
+            <a href="#" class="grid_img2 bg">
+                <h4>SAFE 102</h4>
+                <p class="view_btn">VIEW</p>
+            </a>
+            <a href="#" class="grid_img3 bg">
+                <h4>XPYB 103</h4>
+                <p class="view_btn">VIEW</p>
+            </a>
+            <a href="#" class="grid_img4 bg">
+                <h4>ULQV 104</h4>
+                <p class="view_btn">VIEW</p>
+            </a>
+            <a href="#" class="grid_img5 bg">
+                <h4>ZMEG 105</h4>
+                <p class="ghost_btn2">VIEW</p>
+            </a>
+        </div>
+    </article>
+
+    <!-- key_business -->
+    <article id="key_business">
+        <div class="title_txtwrap">
+            <h2 class="title">key business</h2>
+            <p>정직과 신뢰, 디자인으로 함께 하는 파이브스톤</p>
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                <div class="key_wrap">
+                    <img src="./images/m-mb01.jpg" alt="사업분야01">
+                </div>
+                <div class="txt_box">
+                    <h3>사업분야01</h3>
+                    <p>고객의 필요와 사업환경에 따라 맞춤형 디자인으로 보다 큰 감동을 드립니다.</p>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="key_wrap">
+                    <img src="./images/m-mb02.jpg" alt="사업분야02">
+                </div>
+                <div class="txt_box">
+                    <h3>사업분야02</h3>
+                    <p>고객의 필요와 사업환경에 따라 맞춤형 디자인으로 보다 큰 감동을 드립니다.</p>
+                </div>
+                </a> 
+            </li>
+            <li>
+                <a href="#">
+                <div class="key_wrap">
+                    <img src="./images/m-mb03.jpg" alt="사업분야03">
+                </div>
+                <div class="txt_box">
+                    <h3>사업분야03</h3>
+                    <p>고객의 필요와 사업환경에 따라 맞춤형 디자인으로 보다 큰 감동을 드립니다.</p>
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <div class="key_wrap">
+                    <img src="./images/m-mb04.jpg" alt="사업분야04">
+                </div>
+                <div class="txt_box">
+                    <h3>사업분야04</h3>
+                    <p>고객의 필요와 사업환경에 따라 맞춤형 디자인으로 보다 큰 감동을 드립니다.</p>
+                </div>
+                </a>
+            </li>
+        </ul>
+            </article>
+    
+
+     <!-- FIVESTONE INSIDE -->
+
+    <article id="fivestone_inside">
+        <h2 class="title">FIVESTONE INSAIDE</h2>
+        <p>파이브스톤과 함께 하세요!</p>
+        <ul>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">1:1문의</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">채용안내</a></li>
+        </ul>
+    </article>
+    </main>
+        
+          <!-- footer -->
+          <footer>
+            <div class="f_logo">
+                <img src="./images/logo-f.png" alt="하단로고">
+            </div>
+            <div class="footer_rink">
+                <ul class="footer_info footer_border">
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">묻고답하기</a></li>
+                </ul>
+            </div>
+            <div class="footer_address">
+                <ul class="footer_info footer_border">
+                    <li>회사 : 파이브스톤</li>
+                    <li>주소 : 경기도 고양시 덕양구 삼송로 193번길 28-3 하준빌딩 401호</li>
+                    <li>사업자등록번호 : 780-42-00047</li>
+                </ul>
+            </div>
+            <div class="footer_contact footer_border">
+                <ul class="footer_info">
+                    <li>TEL : 010-2709-0828</li>
+                    <li>EMAIL : fivestone55@daum.net</li>
+                </ul>
+            </div>
+            <div class="footer_sns">
+                <ul>
+                    <li><a href="#" class="sns1">facebook</a></li>
+                    <li><a href="#" class="sns2">blog</a></li>
+                    <li><a href="#" class="sns3">insta</a></li>
+                    <li><a href="#" class="sns4">kakao</a></li>
+                </ul>
+            </div>
+            <div class="copyright footer_info">
+                COPYRIGHT © 2021 FIVESTONE. ALL RIGHT RESERVED
+            </div>
+        </footer>
+
+
+        <script>
+            const gnb = document.querySelector('header .gnb');
+            const toggleBtn = document.querySelector('header .toggle');
+            
+            toggleBtn.addEventListener('click', () => {
+              gnb.classList.toggle('active');
+            })
+          </script> 
+
+        <!-- goUp -->
+        <a href="#" class="goUp">
+            <img src="./images/icon-top.png" alt="위로">
+        </a>
+    </main>
+</body>
+</html>
